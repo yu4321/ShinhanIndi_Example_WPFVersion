@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "신한Indi선물시세_주문WPF", "신한Indi선물시세_주문WPF\신한Indi선물시세_주문WPF.csproj", "{5B7CEDD4-58F5-4BAE-BC86-53C7C6BF0C23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiexpertLib", "GiexpertLib\GiexpertLib.csproj", "{5D829E3A-E665-4FC3-B2C7-3DB29358087E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B7CEDD4-58F5-4BAE-BC86-53C7C6BF0C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B7CEDD4-58F5-4BAE-BC86-53C7C6BF0C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B7CEDD4-58F5-4BAE-BC86-53C7C6BF0C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B7CEDD4-58F5-4BAE-BC86-53C7C6BF0C23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D829E3A-E665-4FC3-B2C7-3DB29358087E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D829E3A-E665-4FC3-B2C7-3DB29358087E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D829E3A-E665-4FC3-B2C7-3DB29358087E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D829E3A-E665-4FC3-B2C7-3DB29358087E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
