@@ -178,6 +178,17 @@ namespace 신한Indi선물시세_주문WPF
             strOrderNo = (string)Comm_Obj_Order.GetSingleData(0);
             var cc = Comm_Obj_Order.GetMultiBlockData();
             var vv = Comm_Obj_Order.GetSingleBlockData();
+            var s = Comm_Obj_Order.GetCommState();
+            var c = Comm_Obj_Order.GetErrorMessage();
+            var a = Comm_Obj_Order.GetErrorState();
+            if (strOrderNo.Length > 0)
+            {
+                MessageBox.Show("주문 성공 - " + strOrderNo);
+            }
+            else
+            {
+                MessageBox.Show("주문 실패 - " + c.ToString());
+            }
             //MessageBox.Show(strOrderNo);
         }
     }
