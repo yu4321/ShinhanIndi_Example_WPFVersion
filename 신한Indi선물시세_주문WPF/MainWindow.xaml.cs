@@ -139,7 +139,7 @@ namespace 신한Indi선물시세_주문WPF
         private void Send_Order(bool bBuy)
         {
             string strAcct = AcctNo.Text;
-            string strpwd = PWD.Text;
+            string strpwd = PWD.Password;
             string strPrice = Price.Text;
             string strQty = Qty.Text;
             string strOrder = "01";

@@ -66,7 +66,7 @@
                 <TextBlock HorizontalAlignment="Left" VerticalAlignment="Center" Text="계좌번호" Margin="10,0"/>
                 <TextBox x:Name="AcctNo" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,0" Width="133"/>
                 <TextBlock HorizontalAlignment="Left" VerticalAlignment="Center" Text="비밀번호" Margin="10,0"/>
-                <TextBox x:Name="PWD" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,0" Width="52" />
+                <PasswordBox x:Name="PWD" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,0" Width="52" />
             </StackPanel>
             
             <StackPanel Orientation="Horizontal" Grid.Row="1">
